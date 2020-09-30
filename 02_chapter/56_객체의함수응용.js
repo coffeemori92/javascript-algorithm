@@ -1,4 +1,4 @@
-nationWidth = {
+const nationWidth = {
   korea: 220877,
   Rusia: 17098242,
   China: 9596961,

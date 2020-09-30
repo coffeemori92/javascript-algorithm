@@ -1,3 +1,5 @@
+const array = [1, 3, 5, 7, 2, 4, 6, 8];
+
 function quickSort(arr) {
   if(arr.length <= 1) {
     return arr;
@@ -15,7 +17,5 @@ function quickSort(arr) {
   }
   return quickSort(left).concat(pivot, quickSort(right));
 }
-
-const array = [1, 3, 2, 7, 5, 6, 4, 8, 9, 10];
 
 console.log(quickSort(array));
